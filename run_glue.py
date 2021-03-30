@@ -38,12 +38,12 @@ from transformers import (
     RobertaTokenizer,
     get_linear_schedule_with_warmup,
 )
-from pabee.modeling_albert import AlbertForSequenceClassification
-from pabee.modeling_bert import BertForSequenceClassification
-from pabee.modeling_roberta import RobertaForSequenceClassification
-from pabee.configuration_roberta import RobertaConfig
-from pabee.configuration_bert import BertConfig
-from pabee.configuration_albert import AlbertConfig
+from model.modeling_albert import AlbertForSequenceClassification
+from model.modeling_bert import BertForSequenceClassification
+from model.modeling_roberta import RobertaForSequenceClassification
+from model.configuration_roberta import RobertaConfig
+from model.configuration_bert import BertConfig
+from model.configuration_albert import AlbertConfig
 from transformers import glue_compute_metrics as compute_metrics
 from transformers import glue_convert_examples_to_features as convert_examples_to_features
 from transformers import glue_output_modes as output_modes
