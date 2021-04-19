@@ -15,7 +15,7 @@ python ./run_glue.py \
   --learning_rate $6 \
   --save_steps $2 \
   --logging_steps $2 \
-  --num_train_epochs 5 \
+  --num_train_epochs $7 \
   --output_dir $OUTPUT_DIR \
   --overwrite_output_dir \
   --gradient_accumulation_steps=$5 \
